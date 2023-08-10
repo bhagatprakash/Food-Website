@@ -1,0 +1,652 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  width: 100%;
+  height: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: white;
+}
+
+nav .logo img {
+  width: 100px;
+  margin: 6px;
+}
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: #fac031;
+}
+nav .icon {
+  font-size: 20px;
+}
+nav .icon i:hover {
+  color: #fac031;
+}
+
+/* section-1  */
+.section-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contant {
+  width: 40%;
+  margin-left: 100px;
+}
+
+section.contant {
+  align-items: center;
+  justify-content: space-around;
+}
+.contant h1 {
+  font-size: 60px;
+  margin-top: 110px;
+}
+.contant h1 span {
+  font-size: 60px;
+  color: #fac031;
+  font-family: "Dancing Script", cursive;
+}
+.img-1 {
+  width: 49%;
+  margin-top: 50px;
+}
+.contant p {
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  padding: 12px 40px;
+  font-weight: bold;
+  background-color: #fac031;
+  color: white;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #fff;
+  margin-right: 5px;
+  text-decoration: none;
+}
+/* section-2  */
+
+.section-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contant-2 {
+  width: 50%;
+  padding: 0 13px;
+}
+
+section.contant--2 {
+  align-items: center;
+  justify-content: space-around;
+}
+.contant-2 h1 {
+  font-size: 60px;
+  margin-top: 90px;
+  color: #fac031;
+  font-family: "Dancing Script", cursive;
+}
+.contant-2 h1 span {
+  font-size: 60px;
+  margin-top: 90px;
+  color: #111010;
+  font-family: "Dancing Script", cursive;
+}
+
+.img-2 {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.contant-2 h3 {
+  font-size: 30px;
+  margin-top: 50px;
+  color: #111010;
+}
+
+.contant-2 p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.btn-1 {
+  padding: 12px 40px;
+  font-weight: bold;
+  background-color: #fac031;
+  color: white;
+  cursor: pointer;
+}
+
+/* section-3  */
+
+.menu {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.menu h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.menu h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+}
+
+.menu h1 span::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fac031;
+  display: block;
+  position: relative;
+  bottom: 15px;
+  font-family: "Dancing Script", cursive;
+}
+.menu .menu_box {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.menu .menu_card {
+  width: 325px;
+  height: 480px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.menu-img {
+  width: 391px;
+  height: 245px;
+  margin: 0, auto;
+}
+.menu-img img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.menu-img img:hover {
+  transform: scale(1.1);
+}
+.small_card {
+  width: 45px;
+  height: 45px;
+  float: right;
+  position: relative;
+  top: -240px;
+  right: -8px;
+  opacity: 1;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.menu_card:hover.small_card {
+  position: relative;
+  top: -240px;
+  right: 20px;
+  opacity: 1;
+}
+.small_card i {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  cursor: pointer;
+  text-shadow: 0 0 6px #000;
+  transition: 0.2s;
+}
+.small_card i:hover {
+  color: #fac031;
+}
+.menu_info h2 {
+  width: 60%;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  font-size: 25px;
+  color: #fac031;
+}
+.menu_info p {
+  width: 60%;
+  margin-top: 8px;
+  line-height: 21px;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+.menu_info h3 {
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+.menu_icon {
+  color: #fac031;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+
+.menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 8px 10px;
+  margin: 0 80px;
+}
+.menu_btn a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* section-4  */
+
+.gallary {
+  width: 100%;
+  padding: 7px 0;
+}
+
+.gallary h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallary h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline;
+}
+
+.gallary_image_box {
+  width: 95%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.gallary_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+.gallary_image img {
+  width: 100%;
+  transition: 0.3s;
+}
+.gallary_image:hover img {
+  opacity: 0.4;
+}
+.gallary_image h3 {
+  position: absolute;
+  font-size: 35px;
+  margin-bottom: 130px;
+  color: #fac031;
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+}
+.gallary_image:hover h3 {
+  opacity: 1;
+}
+
+.gallary_image p {
+  position: absolute;
+  width: 400px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  line-height: 22px;
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+}
+.gallary_image:hover p {
+  opacity: 1;
+}
+
+.gallary_image .gallary_btn {
+  position: absolute;
+  margin-top: 90px;
+  color: #000;
+  background-color: #fac031;
+  padding: 7px 25px;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(45px);
+  z-index: 5;
+  transition: 0.3s;
+}
+
+.gallary_image:hover .gallary_btn {
+  opacity: 1;
+}
+
+/* section-5  */
+.review {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.review h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline;
+}
+.review-box {
+  width: 95%;
+  margin: 60px auto;
+  display: flex;
+}
+.review-card {
+  width: 350px;
+  height: 480px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 8px 20px;
+  margin: 0 8px;
+}
+.review_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.3s;
+}
+.review-card:hover .review_profile {
+  transform: translateY(-50px);
+}
+
+.review_profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5ps solid #cccccc;
+}
+.review-card .review_text {
+  text-align: center;
+}
+.review-card:hover .review_text .name {
+  color: #000;
+  transition: 0.3s;
+}
+.review-card:hover .review_text .name {
+  transform: translateY(-40px);
+}
+.review_icon {
+  color: #fac031;
+}
+
+.review-card:hover .review_icon {
+  color: #fac031;
+  transition: 0.3s;
+}
+.review-card:hover .review_icon i {
+  transform: translateY(-30px);
+}
+
+.review-card .review_text .review_social i {
+  margin: 5px 1px;
+  font-size: 15px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.review-card:hover .review_text .review_social i {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+.review_text p {
+  text-align: center;
+  line-height: 20px;
+  transition: 0.3s;
+  font-size: larger;
+}
+.review-card:hover .review_text p {
+  margin-top: 7px;
+}
+/* section-6  */
+.oreder {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  background-image: url("../image--1/bg2.jpg ");
+}
+
+.oreder h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oreder h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline;
+}
+.oreder_box {
+  display: flex;
+  align-items: center;
+}
+.oreder_box .order_img img {
+  width: 600px;
+}
+.oreder_box form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px 40px;
+  margin-left: 60px;
+}
+.oreder_box form .input label {
+  line-height: 30px;
+  font-size: larger;
+}
+.oreder_box form .input {
+  margin: 10px;
+}
+.oreder_box form .input input {
+  width: 300px;
+  padding: 10px;
+  background-color: #cccccc;
+  opacity: 0.7;
+  border-radius: 2px;
+}
+
+.order_btn {
+  background-color: #fac031;
+  color: white;
+  padding: 10px 0;
+  width: 40%;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+}
+
+/* section-7 */
+
+.team {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.team h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline;
+}
+.team-box {
+  width: 95%;
+  margin: 80px auto;
+  display: flex;
+}
+.team-card {
+  width: 350px;
+  height: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  padding: 8px 20px;
+  margin: 0 8px;
+}
+.team_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.team-card:hover .team_profile {
+  transform: translateY(-50px);
+}
+
+.team_profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #cccccc;
+}
+.team-card .team_text {
+  text-align: center;
+}
+.team-card .team_text h2 {
+  margin: 5px 1px;
+  font-size: 30px;
+  color: #fac031;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.team-card:hover .team_text h2 {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+.team_icon {
+  color: #fac031;
+}
+.team-card .team_text .team_icon p {
+  margin: 5px 1px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.team-card:hover .team_text .team_icon p {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.team-card .team_text .team_social i {
+  margin: 5px 1px;
+  font-size: 15px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.team-card:hover .team_text .team_social i {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+/* footer  */
+
+.footer {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 30px 0 0 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.footer .row .footer-col h2 {
+  color: #000;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.footer .row .footer-col p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.footer .row .footer-col i {
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.footer .row .footer-col i:hover {
+  color: #fac031;
+}
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+
+  font-size: large;
+}
+.end span {
+  color: #fac031;
+  font-weight: bold;
+}
